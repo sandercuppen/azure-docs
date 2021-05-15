@@ -7,7 +7,7 @@ This repo contains Azure and MS365 documentation and resources
 - https://github.com/Azure
 - https://github.com/Azure/bicep
 
-https://github.com/Azure/bicep
+[Bicep Repo](https://github.com/Azure/bicep)
 
 ## Infra as Code
 - https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/
