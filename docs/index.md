@@ -2,6 +2,12 @@
 
 This repo contains Azure and MS365 documentation and resources
 
+## Documentation
+https://docs.microsoft.com/en-us/azure/architecture/
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/
+
+
+
 ## Usefull Git Repositories  
 - [MS patterns & practices](https://github.com/mspnp)
 - [Azure](https://github.com/Azure)
@@ -12,12 +18,26 @@ Azure native
 - [ARM templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/)
 - [Bicep playground](https://bicepdemo.z22.web.core.windows.net/)
 
+https://github.com/Azure/template-analyzer
+
+
 Platform independant industry standard
 - [Terraform](https://www.terraform.io/)
 
 Higher level programming
 - [Farmer](https://compositionalit.github.io/farmer/)
 - [Pulumi](https://www.pulumi.com/)
+
+Diagram to template
+- [Cloudmaker](https://cloudmaker.ai/)
+
+
+## Kubernetes
+https://github.com/Azure/aks-periscope  
+https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks  
+https://github.com/mspnp/aks-secure-baseline
+
+
 
 ## Learning Paths
 - [Devops](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400)
@@ -27,4 +47,48 @@ Higher level programming
 
 - [Setup](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview) lab in Azure (paid resources)
 - [Setup](https://developer.microsoft.com/en-us/microsoft-365/profile) free MS 365 Azure AD tenant
+
+## Roadmap
+https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=
+
+
+## Assesments
+### MS 365 Compliance 
+
+Compliance center - https://compliance.microsoft.com/
+
+[compliance center] https://docs.microsoft.com/en-us/microsoft-365/compliance/compliance-manager-assessments?view=o365-worldwide  
+
+[Assessment templates](https://docs.microsoft.com/en-us/microsoft-365/compliance/compliance-manager-templates?view=o365-worldwide)
+
+[Microsoft Compliance Configuration Analyzer (MCCA)](https://docs.microsoft.com/en-us/microsoft-365/compliance/compliance-manager-mcca?view=o365-worldwide)
+
+Input/Output: Excel / Powershell / MS 365 Compliance center dashboard
+
+Azure
+
+[Well architected framework - Azure Advisor](https://docs.microsoft.com/en-us/azure/architecture/framework/)
+
+Policies
+https://docs.microsoft.com/en-us/azure/governance/policy/how-to/get-compliance-data
+https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-bicep?tabs=azure-powershell
+
+**Benchmarks**  
+The Azure Security Benchmark (ASB) provides prescriptive best practices and recommendations to help improve the security of workloads, data, and services on Azure. 
+
+Input/Output:
+Azure policies (compliant/non-compliant)
+Azure Security center regulatory compliance dashboard
+
+https://techcommunity.microsoft.com/t5/azure-security-center/azure-security-benchmark-v2-is-now-available-with-expanded/ba-p/1689883
+![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/220023iBCF810B31B1CD8A1/image-size/large?v=v2&px=999)
+https://docs.microsoft.com/en-us/azure/security-center/security-center-compliance-dashboard
+
+[Azure Security Benchmark (V2)](https://docs.microsoft.com/en-us/security/benchmark/azure/overview)
+
+Output: Excel / Security Center compliance dashboard
+
+## Security & Governance
+[Microsoft (MS 365 & Azure) security best practices](https://docs.microsoft.com/en-us/security/compass/compass)
+
 
