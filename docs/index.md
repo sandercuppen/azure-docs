@@ -3,7 +3,7 @@
 This repo contains Azure and MS365 documentation and resources
 
 ## Git Repo's  
-- https://github.com/mspnp
+- (https://github.com/mspnp)
 - https://github.com/Azure
 - https://github.com/Azure/bicep
 
