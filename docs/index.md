@@ -2,12 +2,12 @@
 
 This repo contains Azure and MS365 documentation and resources
 
-
 ## Git Repo's  
 - https://github.com/mspnp
 - https://github.com/Azure
 - https://github.com/Azure/bicep
 
+https://github.com/Azure/bicep
 
 ## Infra as Code
 - https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/
@@ -31,3 +31,4 @@ Setup lab in Azure (paid resources)
 
 Setup free MS 365 Azure AD tenant:
 - https://developer.microsoft.com/en-us/microsoft-365/profile
+
