@@ -20,6 +20,9 @@ Azure native
 
 https://github.com/Azure/template-analyzer
 
+https://github.com/azure/azops/wiki/introduction
+
+
 
 Platform independant industry standard
 - [Terraform](https://www.terraform.io/)
@@ -31,6 +34,8 @@ Higher level programming
 Diagram to template
 - [Cloudmaker](https://cloudmaker.ai/)
 
+Blueprints
+- https://docs.microsoft.com/en-us/azure/governance/blueprints/overview
 
 ## Kubernetes
 https://github.com/Azure/aks-periscope  
@@ -65,11 +70,17 @@ Compliance center - https://compliance.microsoft.com/
 
 Input/Output: Excel / Powershell / MS 365 Compliance center dashboard
 
-Azure
+### Azure
+
+**Architecture**
 
 [Well architected framework - Azure Advisor](https://docs.microsoft.com/en-us/azure/architecture/framework/)
 
-Policies
+https://docs.microsoft.com/en-us/assessments/?mode=pre-assessment&session=0f77b2ea-ef99-4ba7-8bff-9966ee995b5d
+
+
+**Policies** 
+
 https://docs.microsoft.com/en-us/azure/governance/policy/how-to/get-compliance-data
 https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-bicep?tabs=azure-powershell
 
@@ -88,7 +99,40 @@ https://docs.microsoft.com/en-us/azure/security-center/security-center-complianc
 
 Output: Excel / Security Center compliance dashboard
 
+### Governance
+https://docs.microsoft.com/en-us/assessments/
+
 ## Security & Governance
 [Microsoft (MS 365 & Azure) security best practices](https://docs.microsoft.com/en-us/security/compass/compass)
 
+## AppSec
 
+Waf & IaC code security
+- https://www.signalsciences.com/
+
+Dependency checker
+- https://owasp.org/www-project-dependency-check/
+- https://snyk.io/
+- https://www.whitesourcesoftware.com/free-developer-tools/renovate
+
+Code Analyses
+- https://www.whitesourcesoftware.com/free-developer-tools/bolt
+- https://devblogs.microsoft.com/premier-developer/azure-devops-pipelines-leveraging-owasp-zap-in-the-release-pipeline/
+
+Dependabot
+
+
+## General
+Jupyter notebook
+JupyterLab
+
+## CI/CD concepts
+- https://docs.gitlab.com/ee/ci/introduction/
+
+
+Arm tenant deployments
+- https://github.com/Azure/Enterprise-Scale/blob/main/docs/EnterpriseScale-Setup-azure.md
+
+
+Quickstart ARM templates
+- https://azure.microsoft.com/en-us/resources/templates/
