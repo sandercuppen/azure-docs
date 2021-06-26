@@ -2,6 +2,17 @@
 
 This repo contains Azure and MS365 documentation and resources
 
+## Infra as code wisdom:
+
+As you mention a Windows environment, as well as moving to cloud, I think you can’t ignore PowerShell in general.
+
+If your cloud environment is Azure, do a deep dive in Azure PowerShell in particular. Next, look at Azure DevOps to facilitate the CI CD pipelines.
+
+If your cloud environment is AWS, or you think you will need to manage multiple cloud vendors, then HashiCorp’s Terraform is one of the more prevalent infrastructure-as-code frameworks.
+
+I’m a reasonable proponent of Git (distributed version control system) with git-flow (how to approach branching, features and bug fixes) and GitOps (managing infrastructure through pull requests).
+
+
 ## Documentation
 https://docs.microsoft.com/en-us/azure/architecture/
 https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/
@@ -60,6 +71,7 @@ https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=
 ## Assesments
 ### MS 365 Compliance 
 
+
 Compliance center - https://compliance.microsoft.com/
 
 [compliance center] https://docs.microsoft.com/en-us/microsoft-365/compliance/compliance-manager-assessments?view=o365-worldwide  
@@ -75,6 +87,8 @@ Input/Output: Excel / Powershell / MS 365 Compliance center dashboard
 **Architecture**
 
 [Well architected framework - Azure Advisor](https://docs.microsoft.com/en-us/azure/architecture/framework/)
+
+https://docs.microsoft.com/en-us/assessments/
 
 https://docs.microsoft.com/en-us/assessments/?mode=pre-assessment&session=0f77b2ea-ef99-4ba7-8bff-9966ee995b5d
 
